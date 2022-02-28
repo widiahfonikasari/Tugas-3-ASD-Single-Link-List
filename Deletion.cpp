@@ -43,7 +43,7 @@ void insertLast(string judul, string pengarang, int tahun_t){
 }
 
 //insert before/after single linked list
-void insertMiddle(string judul, string pengarang, int tahun_t, int posisi){
+void insertAfter(string judul, string pengarang, int tahun_t, int posisi){
 	newNode = new Buku();
 	newNode->judul = judul;
 	newNode->pengarang = pengarang;
@@ -124,11 +124,11 @@ int main(){
 	printSingleLinkedList();
 	cout<<"\n\n"<<endl;
 	
-	insertMiddle("Kebumian", "Ratna Harto", 2004, 3);
+	insertAfter("Kebumian", "Ratna Harto", 2004, 3);
 	printSingleLinkedList();
 	cout<<"\n\n"<<endl;
 	
-	insertMiddle("Manusia", "Abimayu", 2014, 4);
+	insertAfter("Manusia", "Abimayu", 2014, 4);
 	printSingleLinkedList();
 	cout<<"\n\n"<<endl;
 	
