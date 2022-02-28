@@ -15,7 +15,7 @@ Buku *head, *tail, *cur, *newNode, *del, *after ;
 //create single linked list
 void createSingleLinkedList(string judul, string pengarang, int tahun_t){
 	head = new Buku();
-	head ->judul = judul;
+	head->judul = judul;
 	head->pengarang = pengarang;
 	head->tahun_terbit = tahun_t;
 	head->next = NULL;
@@ -24,7 +24,7 @@ void createSingleLinkedList(string judul, string pengarang, int tahun_t){
 //insert first single linked list
 void insertFirst(string judul, string pengarang, int tahun_t){
 	newNode = new Buku();
-	newNode ->judul = judul;
+	newNode->judul = judul;
 	newNode->pengarang = pengarang;
 	newNode->tahun_terbit = tahun_t;
 	newNode->next = head;
@@ -34,7 +34,7 @@ void insertFirst(string judul, string pengarang, int tahun_t){
 //insert last single linked list
 void insertLast(string judul, string pengarang, int tahun_t){
 	newNode = new Buku();
-	newNode ->judul = judul;
+	newNode->judul = judul;
 	newNode->pengarang = pengarang;
 	newNode->tahun_terbit = tahun_t;
 	newNode->next = NULL;
