@@ -143,5 +143,7 @@ int main(){
 	deleteAfter(3);
 	printSingleLinkedList();
 	cout<<"\n\n"<<endl;
+	
+	return 0;
 
 }
